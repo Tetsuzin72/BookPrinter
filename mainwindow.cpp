@@ -8,12 +8,10 @@ MainWindow::MainWindow(QWidget* parent)
     ui->setupUi(this);
     calcPages();
 }
-
 MainWindow::~MainWindow()
 {
     delete ui;
 }
-
 void MainWindow::on_spinBox_valueChanged(int value)
 {
     calcPages();
